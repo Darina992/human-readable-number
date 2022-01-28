@@ -24,7 +24,7 @@ switch (number.toString().length){
     let thirdNumber = Math.floor((number / 100) % 10);
     let secondNumber = Math.floor((number / 10) % 10);
     let firstNumber = Math.floor((number / 1) % 10);
-    answer = unitsArr[`${thirdNumber - 1}`] + ' hundred',dozenArr[`${secondNumber - 2}`] + " " + unitsArr[`${firstNumber - 1}`];
+    answer = unitsArr[`${thirdNumber - 1}`] + ' hundred'  + " " + dozenArr[`${secondNumber - 2}`] + " " + unitsArr[`${firstNumber - 1}`];
   break;
 }
 
